@@ -1,7 +1,7 @@
 /* Import css files */
-@import "/Main-styles/header.css";
+@import "/header.css";
 @import "/Blog-Pages/homepage/Styles/Post.css";
-@import "/Main-styles/footer.css";
+@import "/footer.css";
 
 
 /* Global styles  */
