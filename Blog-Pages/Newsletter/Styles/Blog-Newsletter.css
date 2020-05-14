@@ -1,0 +1,141 @@
+@import "/Main-styles/header.css";
+@import "/Main-styles/footer.css";
+
+
+/* Global styles  */
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.main-section {
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+}
+
+
+.newsletter-subscribe {
+    display: grid;
+    grid-template-columns: 47%;
+    grid-template-rows: 47% 47% 47%; 
+    justify-content: center;
+    grid-row-gap: 1.1rem;
+}
+
+
+.newsletter-subscribe button {
+    display: grid;
+    margin-top: 0.6rem;
+    width: 30%;
+    justify-content: center;
+    font-size: 1.2rem;
+    background: #3352a3;
+    border: none;
+    color: white;
+    padding: 0.4rem;
+    border-radius: 9px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.newsletter-subscribe button:hover{
+    background:#012C99;
+}
+
+
+.main-section-intro{
+    margin-top: 2.5rem;
+}
+
+
+.main-section-intro h1 {
+    font-size: 2rem;
+    border-bottom: 4.5px solid #012C99;
+    width: 12%;
+    
+}
+
+
+.main-section-intro p {
+    font-size: 1.1rem;
+    margin-bottom: 3.5rem;
+    margin-top: 2.6rem;
+}
+
+
+.main-section-intro input {
+   background: rgba(196, 196, 196, 0.26);
+   border: none;
+   border-radius: 9px;
+   padding: 1rem;
+   font-size: 1.1rem;
+   color: rgba(0, 0, 0, 0.36);
+   font-weight: 200;
+   text-align: center;
+}
+
+
+@media screen and (min-width:320px) and (max-width:600px) {
+    .main {
+        margin: 11.25rem 0.7rem 0 0.7rem;
+        line-height: 1.5;
+    }
+    
+    
+    .newsletter-subscribe {
+        display: grid;
+        grid-template-columns: 75%;
+        grid-template-rows: 75% 75% 75%;
+        justify-content: center;
+        grid-row-gap : 1.1rem;
+    }
+    
+    
+    .newsletter-subscribe button {
+        display: grid;
+        margin-top: 0.6rem;
+        width: 45%;
+        font-size: 1.1rem;
+        padding: 0.4rem;
+    }
+}
+
+
+@media (min-width:600px) and (max-width:1024px) {
+    .main {
+        margin: 11.25rem 0.7rem 0 0.7rem;
+    }
+    
+    
+    .newsletter-subscribe {
+        display: grid;
+        grid-template-columns: 50%;
+        grid-template-rows: 50% 50% 50%;
+        justify-content: center;
+        grid-row-gap : 1.1rem;
+    }
+    .newsletter-subscribe button {
+        display: grid;
+        margin-top: 0.6rem;
+        width: 33%;
+        font-size: 1.2rem;
+        padding: 0.4rem;
+    }
+}
