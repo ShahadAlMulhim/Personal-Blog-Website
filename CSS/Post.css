@@ -16,17 +16,17 @@
 
 
 #card1-img-background {
-    background-image: url("/Photos/coding.jpg");
+    background-image: url("../Photos/coding.jpg");
 }
 
 
 #card2-img-background {
-    background-image: url("/Photos/productivity.jpeg");
+    background-image: url("../Photos/productivity.jpeg");
 }
 
 
 #card3-img-background { 
-    background-image: url("/Photos/note-taking.jpg");
+    background-image: url("../Photos/note-taking.jpg");
 }
 
 

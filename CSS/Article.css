@@ -1,6 +1,6 @@
 /* Import css files */
-@import "/CSS/header.css";
-@import "/CSS/footer.css";
+@import "header.css";
+@import "footer.css";
 
 
 /* Global styles  */
