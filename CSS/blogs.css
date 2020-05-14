@@ -1,7 +1,7 @@
 /* Import css files */
-@import "header.css";
-@import "Post.css";
-@import "footer.css";
+@import "./header.css";
+@import "./Post.css";
+@import "./footer.css";
 
 
 /* Global styles  */
