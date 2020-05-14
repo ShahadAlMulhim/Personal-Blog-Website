@@ -98,32 +98,28 @@ main {
 
 .article-date {
     color: rgba(0,0,0,.6);
-    font-size: 0.99rem;
+    font-size: 0.90rem;
     margin-bottom: 1.8rem;
     margin-top: -26px;
     font-weight: 200;
 }
 
 
-.twitter-share {
-    width: 30px;
+.article-date::after{
+    content: "|";
+    margin-left: 0.3rem;
+    display: inline;
+}
+
+.post-info{
+    margin-top: -20px;
+    color: rgba(0,0,0,.6);
+    margin-bottom: 2rem;
+    font-size: 0.90rem;
 }
 
 
-.social-media-share {
-    font-size: 0.9rem;
-    color: rgba(0, 0, 0, 0.81);
-    font-weight: 200;
-    margin-top: 0.2rem;
-    margin-bottom: 0.8rem;
-    justify-content: center;
-}
-
-.social-media-share a {
-    color: rgba(0, 0, 0, 0.81);
-}
-
-.social-media-share a:hover {
+.post-info a:hover {
     color: rgb(33, 38, 165);
     font-weight: 500;
 }
@@ -136,11 +132,11 @@ main {
 }
 
 
-.twitter-link::after {
+/* .twitter-link::after {
     content: "/";
     color: #b2b2b2;
     margin: 0 2px;
-}
+} */
 
 
 @media screen and (min-width:320px) and (max-width:600px) {
@@ -150,6 +146,26 @@ main {
         margin-bottom: 20rem;
         font-size: 1rem;
     }
+    .Article-title-section h1 {
+        font-size: 2rem;
+        font-weight: 900; 
+    }
+    .article-date {
+        font-size: 0.88rem;
+        margin-top: -20px;
+        font-weight: 200;
+    }
+    .author-avatar {
+        width: 50px;
+        max-width: 50px;
+    }
+     
+    .author-name {
+        font-size: 0.8rem;
+    }
+    .social-media-share {
+        font-size: 0.84rem;
+        margin-top: 0.7rem;
 }
 
 
