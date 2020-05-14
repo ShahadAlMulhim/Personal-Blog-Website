@@ -70,6 +70,9 @@ main {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
+    font-size: 0.89rem;
+    color: rgba(0,0,0,.6);
+    font-weight: 200;
 }
 
 
@@ -92,7 +95,7 @@ main {
 .author-name {
     font-size: 1rem;
     color: rgba(0,0,0,.6);
-    font-weight: 400;
+    font-weight: 200;
 }
 
 
@@ -132,13 +135,6 @@ main {
 }
 
 
-/* .twitter-link::after {
-    content: "/";
-    color: #b2b2b2;
-    margin: 0 2px;
-} */
-
-
 @media screen and (min-width:320px) and (max-width:600px) {
     .main {
         margin: 11.25rem 1rem 0 1rem;
@@ -166,11 +162,11 @@ main {
     .social-media-share {
         font-size: 0.84rem;
         margin-top: 0.7rem;
+    }
 }
 
-
-@media (min-width:600px) and (max-width:1024px) {
+@media screen and (min-width:600px) and (max-width:1024px) {
     .main {
         margin: 11.25rem 1rem 53rem 1rem;
     }
-}
+} 
