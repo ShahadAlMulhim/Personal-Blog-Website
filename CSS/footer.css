@@ -2,7 +2,6 @@
 .footer {
     height: 100px;
     margin: auto;
-    border-top: 1.4px solid rgba(0, 0, 0, 0.15);
 }
 
 
@@ -21,8 +20,17 @@ footer a:hover {
     text-align: center;
     font-size: 1.1rem;
     margin-right: 1.5rem;
+    border-collapse: separate;
+    border-spacing: 50px;
 }
 
+
+.line-footer{
+    margin-bottom: 1.5rem;
+    color: rgba(0, 0, 0, 0.15);
+    max-width: 800px;
+
+}
 
 @media screen and (min-width:320px) and (max-width:600px) {
     .footer {
