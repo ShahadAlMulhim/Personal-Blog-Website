@@ -37,8 +37,8 @@ body {
 
 .newsletter-subscribe {
     display: grid;
-    grid-template-columns: 47%;
-    grid-template-rows: 47% 47% 47%; 
+    grid-template-columns: 400px;
+    grid-template-rows: 60px 60px 50px;
     justify-content: center;
     grid-row-gap: 1.1rem;
     margin-bottom: 6rem;
@@ -107,8 +107,8 @@ body {
     
     .newsletter-subscribe {
         display: grid;
-        grid-template-columns: 75%;
-        grid-template-rows: 75% 75% 75%;
+        grid-template-columns: 300px;
+        grid-template-rows: 60px 60px 50px;
         justify-content: center;
         grid-row-gap : 1.1rem;
         margin-bottom: 7rem;
@@ -133,8 +133,8 @@ body {
     
     .newsletter-subscribe {
         display: grid;
-        grid-template-columns: 50%;
-        grid-template-rows: 50% 50% 50%;
+        grid-template-columns: 400px;
+        grid-template-rows: 60px 60px 50px;
         justify-content: center;
         grid-row-gap : 1.1rem;
     }
