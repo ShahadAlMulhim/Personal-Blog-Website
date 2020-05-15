@@ -23,6 +23,11 @@ body {
 }
 
 
+.main {
+    margin-bottom: 3rem;
+}
+
+
 .main-section {
     display: flex;
     align-items: center;
@@ -36,6 +41,7 @@ body {
     grid-template-rows: 47% 47% 47%; 
     justify-content: center;
     grid-row-gap: 1.1rem;
+    margin-bottom: 6rem;
 }
 
 
@@ -94,7 +100,7 @@ body {
 
 @media screen and (min-width:320px) and (max-width:600px) {
     .main {
-        margin: 11.25rem 0.7rem 0 0.7rem;
+        margin: 11.25rem 1rem 0rem 1rem;
         line-height: 1.5;
     }
     
@@ -105,6 +111,7 @@ body {
         grid-template-rows: 75% 75% 75%;
         justify-content: center;
         grid-row-gap : 1.1rem;
+        margin-bottom: 7rem;
     }
     
     
@@ -113,14 +120,14 @@ body {
         margin-top: 0.6rem;
         width: 45%;
         font-size: 1.1rem;
-        padding: 0.4rem;
     }
+
 }
 
 
 @media (min-width:600px) and (max-width:1024px) {
     .main {
-        margin: 11.25rem 0.7rem 0 0.7rem;
+        margin: 11.25rem 1rem 0 1rem;
     }
     
     
@@ -131,11 +138,13 @@ body {
         justify-content: center;
         grid-row-gap : 1.1rem;
     }
+    
+    
     .newsletter-subscribe button {
         display: grid;
         margin-top: 0.6rem;
         width: 33%;
         font-size: 1.2rem;
-        padding: 0.4rem;
+        padding: 0.3rem;
     }
 }

@@ -28,7 +28,7 @@ html {
 
 /* Main content */
 main {
-    margin-bottom: 35rem;
+    margin-bottom: 10rem;
 }
 
 
@@ -108,13 +108,14 @@ main {
 }
 
 
-.article-date::after{
+.article-date::after {
     content: "|";
     margin-left: 0.3rem;
     display: inline;
 }
 
-.post-info{
+
+.post-info {
     margin-top: -20px;
     color: rgba(0,0,0,.6);
     margin-bottom: 2rem;
@@ -139,34 +140,49 @@ main {
     .main {
         margin: 11.25rem 1rem 0 1rem;
         line-height: 1.5;
-        margin-bottom: 20rem;
+        margin-bottom: 10rem;
         font-size: 1rem;
     }
+    
+    
     .Article-title-section h1 {
         font-size: 2rem;
         font-weight: 900; 
     }
+    
+    
     .article-date {
         font-size: 0.88rem;
         margin-top: -20px;
         font-weight: 200;
     }
+    
+    
     .author-avatar {
         width: 50px;
         max-width: 50px;
     }
      
+    
     .author-name {
         font-size: 0.8rem;
     }
+    
+    
     .social-media-share {
         font-size: 0.84rem;
         margin-top: 0.7rem;
     }
 }
 
+
 @media screen and (min-width:600px) and (max-width:1024px) {
     .main {
-        margin: 11.25rem 1rem 53rem 1rem;
+        margin: 11.25rem 1rem 10rem 1rem;
+    }
+    .footer{
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
     }
 } 
