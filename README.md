@@ -7,4 +7,4 @@ This repository is for Udacity's Frontend Nanodegree first project "Personal blo
 <br>
 
 ## Goal of this project :
-Is to utilize my HTML, CSS skills to build out responsive personal blog website.
+Utilize my HTML, CSS skills to build out responsive personal blog website.
