@@ -2,6 +2,15 @@
 a {
     font-weight: 400;
     color: #555;
+    
+}
+
+.navbar-links{
+    text-decoration: none;
+}
+
+a.navbar-title{
+    text-decoration: none;
 }
 
 

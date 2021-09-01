@@ -2,6 +2,7 @@
 .footer {
     height: 100px;
     margin: auto;
+    text-decoration: none;
 }
 
 
@@ -22,6 +23,7 @@ footer a:hover {
     margin-right: 1.5rem;
     border-collapse: separate;
     border-spacing: 50px;
+    text-decoration: none;
 }
 
 
@@ -29,6 +31,9 @@ footer a:hover {
     margin-bottom: 1.5rem;
     color: rgba(0, 0, 0, 0.15);
     max-width: 800px;
+}
+figcaption{
+    display: block;
 }
 
 
@@ -64,6 +69,7 @@ footer a:hover {
         display: flex;
         justify-content: space-between;
         margin: auto;
+        
     }
     .footer div {
         margin: 1.3rem;

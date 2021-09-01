@@ -134,6 +134,9 @@ main {
     font-weight: 500;
     display: block;
 }
+figcaption{
+    display: block;
+}
 
 
 @media screen and (min-width:320px) and (max-width:600px) {

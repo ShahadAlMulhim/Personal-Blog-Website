@@ -96,6 +96,9 @@ body {
    font-weight: 200;
    text-align: center;
 }
+figcaption{
+    display: block;
+}
 
 
 @media screen and (min-width:320px) and (max-width:600px) {

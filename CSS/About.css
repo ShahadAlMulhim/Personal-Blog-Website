@@ -15,7 +15,6 @@ body {
 
 *, *:before, *:after {
     box-sizing: inherit;
-    text-decoration: none;
 }
 
 
@@ -27,27 +26,27 @@ body {
 }
 
 
+
 h1{
     font-size: 1.90rem;
-    
 }
+
+
 
 .main-section-intro p{
     font-size: 1.1rem;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
     color: rgba(0, 0, 0, 0.67);
 }
 
 
 .working-company{
     color: #FF4D00;
-    font-weight: 500;
 }
 
 
 .interest{
     color: #012C99;
-    font-weight: 500;
 }
 
 
@@ -61,6 +60,20 @@ h1{
     font-weight: 500;
 }
 
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.Writer-name{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.30);
+}
 
 @media screen and (min-width:320px) and (max-width:600px) {
     .main {
